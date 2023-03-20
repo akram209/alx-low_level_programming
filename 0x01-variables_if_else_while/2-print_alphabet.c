@@ -1,10 +1,9 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - entry point
  *
  * description: print all alphabet letters
- *
  *
  * Return: Always 0 (success)
 */
