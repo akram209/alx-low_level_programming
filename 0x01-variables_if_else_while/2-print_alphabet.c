@@ -1,14 +1,24 @@
 #include <stdlib.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * description: print all alphabet letters
+ *
+ *
+ * Return: Always 0 (success)
+*/
 
 int main(void)
 {
-	int ch;
+	char ch = 'a';
 
-	for (ch = 'a'; ch < 'z'; ch++)
-	putchar(ch);
+	while (ch <= 'z')
+	{
+		 putchar(ch);
+		 ch++;
+	}
+	putchar('\n');
+
 	return (0);
 }
