@@ -1,15 +1,31 @@
-#include <stdlib.h>
+#include <stdio.h>
 
-/* more headers goes there */
+/**
+ * main - entry point
+ *
+ * description: print alphabet in lowercase then in uppercase
+ *
+ * Return: 0 (success)
+*/
 
-/* betty style doc for function main goes there */
 int main(void)
 {
-	int ch;
+	char ch = 'a';
+	char cH = 'A';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	putchar(ch);
+	/* prints a - z*/
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	/* prints A - Z*/
+	while (cH <= 'Z')
+	{
+		putchar(cH);
+		cH++;
+	}
+	putchar('\n');
+
 	return (0);
 }
