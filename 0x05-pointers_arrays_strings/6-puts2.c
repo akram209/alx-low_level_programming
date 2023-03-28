@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - prints even numbers
+ * puts2 - prints every characters of a string
  *
  * @str: srting parameter input
  *
