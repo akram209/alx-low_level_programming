@@ -28,7 +28,7 @@ int isDelimiter(char c)
 	return (0);
 }
 /**
- * *cap_string - capitalizes all words of a string
+ * cap_string - capitalizes all words of a string
  * @s: input string
  * Return: string whis capilitized words
 */
